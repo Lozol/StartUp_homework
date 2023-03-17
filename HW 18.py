@@ -3,7 +3,7 @@ import mysql.connector
 my_db = mysql.connector.connect(
     host='localhost',
     user= 'root',
-    password='Ifgjdfkjdf_1'
+    password='1111'
     )
 # 1.Напишіть програму , яка створює нову базу даних 'my_first_db'
 my_cursor= my_db.cursor()
