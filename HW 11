@@ -6,8 +6,8 @@
 
 #2.Додайте до серверу з першого завдання функцію чат-боту, який би відсилав клієнту задані відповіді
 # на певні повідомлення
-Сервер
-Кліент
+Сервер https://github.com/Lozol/StartUp_homework/blob/main/server1.py
+Кліент  https://github.com/Lozol/StartUp_homework/blob/main/client1.py
 #3. Напишіть сервер, який би отримував у користувача фразу, а потім надсилав би підраховану кількість слів у
 # відповідь.
 Сервер https://github.com/Lozol/StartUp_homework/blob/main/server2.py
