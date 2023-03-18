@@ -1,8 +1,14 @@
 
 # 1. Реалізувати чат без графічного інтерфейсу, який дозволить обмінюватися повідомленнями між
 # клієнтом і сервером. Клієнт повинен отримувати повідомлення сервера
+Сервер https://github.com/Lozol/StartUp_homework/blob/main/server.py
+Кліент https://github.com/Lozol/StartUp_homework/blob/main/client.py
 
 #2.Додайте до серверу з першого завдання функцію чат-боту, який би відсилав клієнту задані відповіді
 # на певні повідомлення
+Сервер
+Кліент
 #3. Напишіть сервер, який би отримував у користувача фразу, а потім надсилав би підраховану кількість слів у
 # відповідь.
+Сервер https://github.com/Lozol/StartUp_homework/blob/main/server2.py
+Кліент https://github.com/Lozol/StartUp_homework/blob/main/client2.py
