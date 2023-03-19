@@ -3,10 +3,10 @@
 # формування бінарного дерева пошуку. ("Правильный" (с точки зрения ООП) способ добавить свои методы -
 # создать свой класс, наследующийся от исходного стандартного класса.)
 # class Tree:
-#     deff __init__(self, id_node):
-#     self.id_node = id_node
-#     self.left = None
-#     self.right = None
+#     def __init__(self, id_node):
+#         self.id_node = id_node
+#         self.left = None
+#         self.right = None
 #
 #     def __str__(self):
 #         return str(self.id_node)
@@ -31,10 +31,10 @@
 # 2. Додайте до класу Tree методи пошуку мінімального і максимального значення елементів в бінарному
 # дереві пошуку
 class Tree:
-    deff __init__(self, id_node):
-    self.id_node = id_node
-    self.left = None
-    self.right = None
+    def __init__(self, id_node):
+        self.id_node = id_node
+        self.left = None
+        self.right = None
 
     def __str__(self):
         return str(self.id_node)
