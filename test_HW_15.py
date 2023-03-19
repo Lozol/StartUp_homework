@@ -66,7 +66,8 @@ class TestTree():
         f1 = max_in_oder(self)
         assert f1 == 5
 
-
+if __name__ == "__main__":
+    result=test_compare_min()
 
 
 
