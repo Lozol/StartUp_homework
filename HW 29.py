@@ -92,14 +92,12 @@ user_dict[login] = pasword_encryption
 log_new, pasword_new = input("Please log in. Print your login and pasword: ").split()
 
 new_key = hashlib.pbkdf2_hmac('sha256', 'pasword_new'.encode('utf-8'),salt, 10000)
-try:
-    value = user_dict[log_new]
-    print("User", log_new, "exists")
-except KeyError:
-    print("User is not registered")
 
-if pasword_new == user_dict[log_new]:
-    print('Pasword checked')
-else:
-    print('Wrong pasword')
+try:
+    if pasword_new == user_dict[log_new]:
+        print('Hello, ' + login + '!!!')
+    else:
+        print('Wrong pasword!')
+except KeyError:
+    print('User is not registered')
 
